@@ -1,7 +1,4 @@
-@extends('includes.navbar')
-<div id="app">
-    <main class="py-4 container">
-        @extends('includes.messages')
-        @yield('content')
-    </main>
-</div>
+@extends('layouts.layout')
+@section('content')
+this is content of "yield('content')"
+@endsection
